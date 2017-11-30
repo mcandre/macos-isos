@@ -19,7 +19,15 @@ Unfortunately, the process of generating installation images is unstable, result
 
 # REQUIREMENTS
 
-An appropriate macOS installer application.
+## Apple hardware
+
+Buy Apple!
+
+## macOS
+
+Preferably the same or lower version than the desired ISO to be generated.
+
+## macOS installer application
 
 * 10.13 - `Install macOS High Sierra.app`
 * 10.12 - `Install macOS Sierra.app`
