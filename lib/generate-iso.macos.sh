@@ -2,7 +2,7 @@
 
 usage() {
     echo "Usage: $0 <major.minor> [<output-directory>]"
-    echo "Example: $0 10.12 isos"
+    echo "Example: $0 10.13 isos"
     exit 1
 }
 
