@@ -13,6 +13,10 @@ fi
 VERSION="$1"
 
 case "$VERSION" in
+    10.14)
+        VERSION_ALIAS='Mojave'
+        OS_ALIAS='macOS'
+        ;;
     10.13)
         VERSION_ALIAS='High Sierra'
         OS_ALIAS='macOS'
@@ -79,7 +83,7 @@ cleanup() {
 trap cleanup EXIT INT TERM
 
 hdiutil create -o "$IMAGE_DMG" \
-    -size 5500m \
+    -size 6000m \
     -layout SPUD \
     -fs HFS+J
 
