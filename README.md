@@ -7,7 +7,7 @@ macos-isos provides scripts for generating digital installation images in a stan
 # EXAMPLE
 
 ```console
-$ sudo time lib/generate-iso.macos.sh 10.13 isos
+$ sudo time lib/generate-iso 10.13 isos
 ...
        95.91 real        40.93 user        14.85 sys
 
