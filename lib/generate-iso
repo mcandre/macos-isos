@@ -82,7 +82,7 @@ cleanup() {
     rm -rf "$IMAGE_DMG"
 }
 
-trap cleanup EXIT INT TERM
+trap 'cleanup' EXIT
 
 hdiutil create -o "$IMAGE_DMG" \
     -size 6000m \
